@@ -19,31 +19,32 @@
         <input type="text" id="display" readonly  >
         <div class="allButton">
         <div class="row1">
-            <input type="button" value="7" class="button" onclick="appendNum('7')">
-            <input type="button" value="8" class="button" onclick="appendNum('8')">
-            <input type="button" value="9" class="button" onclick="appendNum('9')">
-            <input type="button" value="/" class="button" onclick="appendNum('/')">
+            <input type="button" value="7" class="button" onclick="appendNum('7'),playSound()">
+            <input type="button" value="8" class="button" onclick="appendNum('8'),playSound()">
+            <input type="button" value="9" class="button" onclick="appendNum('9'),playSound()">
+            <input type="button" value="/" class="button" onclick="appendNum('/'),playSound()">
         </div>
         <div class="row2">
-            <input type="button" value="4" class="button" onclick="appendNum('4')">
-            <input type="button" value="5" class="button" onclick="appendNum('5')">
-            <input type="button" value="6" class="button" onclick="appendNum('6')">
-            <input type="button" value="x" class="button" onclick="appendNum('*')">
+            <input type="button" value="4" class="button" onclick="appendNum('4'),playSound()">
+            <input type="button" value="5" class="button" onclick="appendNum('5'),playSound()">
+            <input type="button" value="6" class="button" onclick="appendNum('6'),playSound()">
+            <input type="button" value="x" class="button" onclick="appendNum('*'),playSound()">
         </div>
         <div class="row3">
-            <input type="button" value="1" class="button" onclick="appendNum('1')">
-            <input type="button" value="2" class="button" onclick="appendNum('2')">
-            <input type="button" value="3" class="button" onclick="appendNum('3')">
-            <input type="button" value="-" class="button"onclick="appendNum('-')">
+            <input type="button" value="1" class="button" onclick="appendNum('1'),playSound()">
+            <input type="button" value="2" class="button" onclick="appendNum('2'),playSound()">
+            <input type="button" value="3" class="button" onclick="appendNum('3'),playSound()">
+            <input type="button" value="-" class="button"onclick="appendNum('-'),playSound()">
         </div>
         <div class="row4">
-            <input type="button" value="0" class="button" onclick="appendNum('0')"> 
-            <input type="button" value="=" class="button" onclick="equal()">
-            <input type="button" value="." class="button" onclick="appendNum('.')">
-            <input type="button" value="+" class="button" onclick="appendNum('+')">
+            <input type="button" value="0" class="button" onclick="appendNum('0'),playSound()"> 
+            <input type="button" value="=" class="button" onclick="equal(),playSound()">
+            <input type="button" value="." class="button" onclick="appendNum('.'),playSound()">
+            <input type="button" value="+" class="button" onclick="appendNum('+'),playSound()">
         </div>
     </allallbut>             
     </div>
+    <audio id="buttonSound" src="/y2mate.com - Mouse Click Sound Effect (1).mp3"></audio>
     <script src="app.js"> </script>
 </body>
 

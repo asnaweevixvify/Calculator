@@ -8,5 +8,8 @@ function equal(){
     let answer = eval(finalNum);
     Display.value = answer
 }
+function playSound() {
+    document.getElementById("buttonSound").play();
+}
 
 
