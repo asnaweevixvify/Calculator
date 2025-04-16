@@ -30,7 +30,7 @@ inputBtn.forEach(input =>{
 
 function callOperator(operator){
     const currentValue = Number(calculatorDisplay.value)
-    if(operatorValue && waitForNext){
+    if(operatorValue && waitForNext ){
         operatorValue = operator
         return;
     }
