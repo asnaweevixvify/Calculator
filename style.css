@@ -10,12 +10,16 @@ body{
     display: flex;
     flex-direction: column;
     width: 600px;
-    height: 700px;
+    height: 750px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     border: 4px solid black;
     border-radius: 20px;
+}
+input:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 #display{
     height: 90px;
@@ -27,8 +31,16 @@ body{
     border: 4px solid black;
     border-radius: 20px;
     font-size: 40px;
-    text-align: center;
+    text-align: right;
     font-family: "Press Start 2P"
+}
+
+#clearbtn{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border: 4px solid white;
+    cursor: pointer;
 }
 .allButton{
     margin-left: auto;
